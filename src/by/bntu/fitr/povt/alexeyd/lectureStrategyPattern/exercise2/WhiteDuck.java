@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.alexeyd.lectureStrategyPattern.exercise1;
+package by.bntu.fitr.povt.alexeyd.lectureStrategyPattern.exercise2;
 
 public class WhiteDuck extends Duck {
 
