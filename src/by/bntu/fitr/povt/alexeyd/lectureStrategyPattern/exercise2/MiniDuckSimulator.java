@@ -10,5 +10,7 @@ public class MiniDuckSimulator {
         RedHeadDuck redHeadDuck = new RedHeadDuck();
 
         mallardDuck.performFly();
+        mallardDuck.setFlyBehavior(new FlyRocketPowered());
+        mallardDuck.performFly();
     }
 }
