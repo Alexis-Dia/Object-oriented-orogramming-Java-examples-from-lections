@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.alexeyd.lectureInputOutputStream.exercise1;
+package by.bntu.fitr.povt.alexeyd.lectureInputOutputStream.exercise2;
 
 import java.sql.*;
 
@@ -8,6 +8,11 @@ public class JDBC {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
+            try {
+                Driver driver = new com.mysql.cj.jdbc.Driver();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
             try {
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/internetshop","root", "root");
                 PreparedStatement preparedStatement =conn.prepareStatement("SELECT * FROM internetshop.products");

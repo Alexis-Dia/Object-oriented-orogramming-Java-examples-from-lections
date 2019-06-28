@@ -19,6 +19,7 @@ public class CharacterStreamWorker {
     public static void read(String fileName) {
         try(Reader stream = new FileReader(fileName)) {
             int temp;
+
             while ((temp = stream.read()) != -1) {
                 System.out.println(temp + " ");
             }
