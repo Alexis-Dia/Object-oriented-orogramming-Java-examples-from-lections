@@ -9,6 +9,7 @@ public class Main {
             c.runPrint();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            System.out.println(e);
         }
     }
 }
