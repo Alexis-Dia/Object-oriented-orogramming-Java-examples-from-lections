@@ -1,3 +1,5 @@
+package by.bntu.fitr.povt.alexeyd.lectureException;
+
 public class SalaryException extends Exception {
     private Exception _hidden;
     public SalaryException(String er) {

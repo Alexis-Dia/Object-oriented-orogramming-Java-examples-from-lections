@@ -1,4 +1,4 @@
-package bntuLectureExceptions.example4TwoWaysToThrowException;
+package by.bntu.fitr.povt.alexeyd.lectureException.bntuLectureExceptions.example4TwoWaysToThrowException;
 
 class TestExceptClass {
     public static void justDoIt(String name) {

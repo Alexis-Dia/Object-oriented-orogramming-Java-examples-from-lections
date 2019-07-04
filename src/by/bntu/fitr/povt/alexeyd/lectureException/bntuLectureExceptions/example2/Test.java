@@ -1,4 +1,4 @@
-package bntuLectureExceptions.example2;
+package by.bntu.fitr.povt.alexeyd.lectureException.bntuLectureExceptions.example2;
 
 class TestExceptClass {
     public static void justDoIt(String name) {

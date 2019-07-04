@@ -1,6 +1,5 @@
-package bntuLectureExceptions.example5ThrowsUsingPolymprphysm;
+package by.bntu.fitr.povt.alexeyd.lectureException.bntuLectureExceptions.example5ThrowsUsingPolymprphysm;
 
-import java.io.EOFException;
 import java.io.FileNotFoundException;
 
 public class B extends A {

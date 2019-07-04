@@ -1,4 +1,7 @@
-import immutable.ImmutableObj;
+package by.bntu.fitr.povt.alexeyd.lectureException;
+
+
+import by.bntu.fitr.povt.alexeyd.lectureException.immutable.ImmutableObj;
 
 public class Main {
 

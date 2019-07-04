@@ -1,7 +1,6 @@
-package bntuLectureExceptions.example5ThrowsUsingPolymprphysm;
+package by.bntu.fitr.povt.alexeyd.lectureException.bntuLectureExceptions.example5ThrowsUsingPolymprphysm;
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {

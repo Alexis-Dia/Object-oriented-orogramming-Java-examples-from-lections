@@ -1,4 +1,4 @@
-package bntuLectureExceptions.example3MultimleExceptions;
+package by.bntu.fitr.povt.alexeyd.lectureException.bntuLectureExceptions.example3MultimleExceptions;
 
 class TestExceptClass {
     public static void justDoIt(String name) {

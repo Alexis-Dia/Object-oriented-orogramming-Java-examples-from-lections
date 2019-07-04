@@ -1,4 +1,4 @@
-package bntuLectureExceptions.example6Finaly;
+package by.bntu.fitr.povt.alexeyd.lectureException.bntuLectureExceptions.example6Finaly;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

@@ -1,3 +1,5 @@
+package by.bntu.fitr.povt.alexeyd.lectureException;
+
 public class RunnerLogic {
     public static double salary(int coeff)
             throws SalaryException {

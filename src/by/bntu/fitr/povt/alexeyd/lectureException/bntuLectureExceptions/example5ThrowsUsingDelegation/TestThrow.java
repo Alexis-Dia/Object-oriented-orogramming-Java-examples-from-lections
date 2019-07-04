@@ -1,4 +1,4 @@
-package bntuLectureExceptions.example5ThrowsUsingDelegation;
+package by.bntu.fitr.povt.alexeyd.lectureException.bntuLectureExceptions.example5ThrowsUsingDelegation;
 
 import java.io.IOException;
 

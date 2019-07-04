@@ -1,4 +1,4 @@
-package bntuLectureExceptions.example8TryWithResourses;
+package by.bntu.fitr.povt.alexeyd.lectureException.bntuLectureExceptions.example8TryWithResourses;
 
 import java.io.*;
 

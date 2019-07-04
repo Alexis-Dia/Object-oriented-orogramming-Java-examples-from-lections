@@ -1,4 +1,4 @@
-package immutable;
+package by.bntu.fitr.povt.alexeyd.lectureException.immutable;
 
 public final class ImmutableObj {
 
