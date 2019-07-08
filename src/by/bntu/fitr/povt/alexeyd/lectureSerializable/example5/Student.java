@@ -10,17 +10,8 @@ public class Student implements Externalizable {
     private int age;
     private transient double mark;
 
-    private void writeObject(java.io.ObjectOutputStream out) throws IOException {
-        out.defaultWriteObject();
-    }
-
-    private void readObject(java.io.ObjectInputStream in) throws IOException, ClassNotFoundException {
-        in.defaultReadObject();
-    }
-
 	private void readObjectNoData() throws ObjectStreamException {
     }
-
 
     public Student() {
     }
@@ -29,6 +20,16 @@ public class Student implements Externalizable {
         this.name = name;
         this.age = age;
         this.mark = mark;
+    }
+
+    @Override
+    public void writeExternal(ObjectOutput out) throws IOException {
+        out.writeUTF(this.name);
+    }
+
+    @Override
+    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+        this.name = in.readUTF();
     }
 
     public String getName() {
@@ -64,13 +65,4 @@ public class Student implements Externalizable {
                 '}';
     }
 
-    @Override
-    public void writeExternal(ObjectOutput out) throws IOException {
-        out.writeUTF(this.name);
-    }
-
-    @Override
-    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-        this.name = in.readUTF();
-    }
 }
