@@ -2,7 +2,7 @@ package by.bntu.fitr.povt.alexeyd.lectureSerializable.example1;
 
 import java.io.Serializable;
 
-public class Student {
+public class Student implements Serializable {
 
     private String name;
     private int age;
