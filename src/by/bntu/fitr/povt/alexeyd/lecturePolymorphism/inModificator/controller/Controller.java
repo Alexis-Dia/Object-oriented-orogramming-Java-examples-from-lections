@@ -1,6 +1,6 @@
-package by.bntu.fitr.povt.alexeyd.lecturePolymorphism.controller;
+package by.bntu.fitr.povt.alexeyd.lecturePolymorphism.inModificator.controller;
 
-import by.bntu.fitr.povt.alexeyd.lecturePolymorphism.model.entity.Bread;
+import by.bntu.fitr.povt.alexeyd.lecturePolymorphism.inModificator.model.entity.Bread;
 
 public class Controller {
 

@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.alexeyd.lecturePolymorphism.model.entity;
+package by.bntu.fitr.povt.alexeyd.lecturePolymorphism.inModificator.model.entity;
 
 //todo: refactore warnings and remove unnecessary code
 public class Bread extends Product{
